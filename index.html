@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+        <link rel="stylesheet" href="jquery-ui.css" type="text/css">
+        <link rel="stylesheet" href="iThing-min.css" type="text/css">
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <script src="gpx.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="jQDateRangeSlider-min.js"></script>
+        <script src="run-history.js"></script>
+
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <h1 id="page-heading">Run History</h1>
+        <span id="app-instructions" class="app-info">
+            Upload your <a href="https://runkeeper.com/exportDataForm" target="_blank">Runkeeper GPX files</a> to view your track history.
+            Please report bugs & issues <a href="http://github.com/maguirebrendan/run-history/issues" target="_blank">here</a>
+        </span>
+        <span id="app-example" class="app-info">
+            Click <a href="#">here</a> for an example
+        </span>
+        <div id="map" class="main"></div>
+        <div id="controls" class="main">
+            <div id="activity-controls">
+                <hr>
+                <div id="activity-types"></div>
+                <div id="slider-range-container">
+                    <div id="slider-range"></div>
+                </div>
+            </div>
+            <div id="map-controls">
+                <div class="file-upload btn">
+                    <span>Upload GPX Files</span>
+                    <input id="gpx-upload" type="file" multiple/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

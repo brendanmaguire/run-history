@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+  version="1.1"
+  creator="Runkeeper - http://www.runkeeper.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<trk>
+  <name><![CDATA[Walking 5/13/15 12:46 pm]]></name>
+  <time>2015-05-13T16:46:48Z</time>
+<trkseg>
+<trkpt lat="-23.237375000" lon="-67.023112000"><ele>4090.0</ele><time>2015-05-13T16:46:48Z</time></trkpt>
+<trkpt lat="-23.237339000" lon="-67.023193000"><ele>4090.0</ele><time>2015-05-13T16:47:00Z</time></trkpt>
+<trkpt lat="-23.237353000" lon="-67.023287000"><ele>4090.0</ele><time>2015-05-13T16:47:08Z</time></trkpt>
+<trkpt lat="-23.237384000" lon="-67.023371000"><ele>4090.0</ele><time>2015-05-13T16:47:16Z</time></trkpt>
+<trkpt lat="-23.237298000" lon="-67.023386000"><ele>4090.0</ele><time>2015-05-13T16:47:23Z</time></trkpt>
+<trkpt lat="-23.237216000" lon="-67.023388000"><ele>4090.0</ele><time>2015-05-13T16:47:29Z</time></trkpt>
+<trkpt lat="-23.237118000" lon="-67.023397000"><ele>4090.0</ele><time>2015-05-13T16:47:37Z</time></trkpt>
+<trkpt lat="-23.237201000" lon="-67.023426000"><ele>4090.0</ele><time>2015-05-13T16:48:01Z</time></trkpt>
+<trkpt lat="-23.237285000" lon="-67.023415000"><ele>4090.0</ele><time>2015-05-13T16:48:10Z</time></trkpt>
+<trkpt lat="-23.237331000" lon="-67.023342000"><ele>4090.0</ele><time>2015-05-13T16:48:19Z</time></trkpt>
+<trkpt lat="-23.237324000" lon="-67.023254000"><ele>4090.0</ele><time>2015-05-13T16:48:27Z</time></trkpt>
+<trkpt lat="-23.237321000" lon="-67.023165000"><ele>4090.0</ele><time>2015-05-13T16:48:34Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>

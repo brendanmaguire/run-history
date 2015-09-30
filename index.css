@@ -1,0 +1,183 @@
+body {
+    background-color: #324651;
+    font-family: Arial;
+    font-size: 0.85em;
+    margin:0;
+    padding:0;
+    color: #60B9C9;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 1%;
+    height: 3%;
+    color: #74DFF2;
+    text-shadow: 1px 1px 3px #AAAA9D;
+}
+
+.app-info {
+    margin: 0 1%;
+}
+
+.app-info,
+.app-info a:hover {
+    color: #FCFCFC;
+}
+
+.app-info a {
+    color: #74DFF2;
+}
+
+#app-example {
+    float: right;
+}
+
+.main {
+    height: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#map {
+    float: left;
+    width: 70%;
+    margin-left: 1%;
+}
+
+#controls {
+    width: 28%;
+    float: right;
+    margin-left: 1%;
+}
+
+#controls,
+.leaflet-control-layers label {
+    color: #AAAA9D;
+}
+
+#controls > div {
+    border: 1px solid #60B9C9;
+    margin: 0 2% 2% 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+}
+
+#activity-types {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#slider-range-container {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.ui-rangeSlider-label {
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.ui-rangeSlider-bar {
+    background: #C5D3D6;
+}
+
+.ui-rangeSlider-innerBar {
+    background: #324651;
+}
+
+.control-checkbox {
+    width: 20px;
+    height: 20px;
+    background: #C5D3D6;
+    margin: 5px 5px;
+
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.control-checkbox label {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 25px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+
+    background: #324651;
+
+    -webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.control-checkbox input[type=checkbox]:checked + label {
+   background: #74DFF2;
+}
+
+.control-checkbox span {
+    position: relative;
+    top: -16px;
+    left: 25px;
+    white-space: pre;
+}
+
+.leaflet-control-layers {
+    float: none;
+}
+
+.leaflet-control-layers label {
+    font-size: 12px;
+    height: 16px;
+    float: none;
+}
+
+.leaflet-control-layers label,
+.leaflet-control-layers label input {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ span {
+    color: #324651;
+}
+
+.file-upload {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    color: #324651;
+    background-color: #74DFF2;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #60B9C9;
+}
+
+.file-upload:hover {
+    background-color: #5BC6D9;
+    border-color: #47A0B0;
+}
+
+.file-upload input#gpx-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
